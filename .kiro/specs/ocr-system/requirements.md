@@ -49,8 +49,7 @@ This document defines the requirements for an OCR (Optical Character Recognition
 2. WHILE an Extraction_Job is processing, THE API_Server SHALL report Job_Status as `processing` to any polling client.
 3. WHEN the OCR_Engine processes a PDF Document, THE OCR_Engine SHALL extract text and Bounding_Box coordinates for each recognized text segment on every page.
 4. WHEN the OCR_Engine processes an image Document, THE OCR_Engine SHALL extract text and Bounding_Box coordinates for each recognized text segment.
-5. WHEN extraction completes successfully, THE OCR_Engine SHALL persist the extracted text, Bounding_Box data, page count, and completion timestamp to the Document_Store and update Job_Status to `completed`.
-6. IF the OCR_Engine encounters an unrecoverable error during extraction, THEN THE OCR_Engine SHALL update Job_Status to `failed`, persist a human-readable error description to the Document_Store, and emit a structured error log entry.
+26. IF the OCR_Engine encounters an unrecoverable error during extraction, THEN THE OCR_Engine SHALL update Job_Status to `failed`, persist a human-readable error description to the Document_Store, and emit a structured error log entry.
 7. WHEN an Extraction_Job fails, THE API_Server SHALL allow the User to resubmit the Document for a new Extraction_Job.
 8. THE OCR_Engine SHALL extract text with a character-level confidence score for each recognized segment and persist that score alongside the extracted text.
 
