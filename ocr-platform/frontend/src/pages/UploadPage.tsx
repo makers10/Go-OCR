@@ -30,8 +30,8 @@ const contentLayoutStyle: React.CSSProperties = {
 
 const infoBoxStyle: React.CSSProperties = {
   padding: '1.25rem',
-  backgroundColor: 'rgba(34, 197, 94, 0.03)',
-  borderColor: 'rgba(34, 197, 94, 0.15)'
+  backgroundColor: 'rgba(59, 130, 246, 0.03)',
+  borderColor: 'rgba(59, 130, 246, 0.15)'
 };
 
 const infoTitleStyle: React.CSSProperties = {

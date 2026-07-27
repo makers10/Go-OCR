@@ -8,12 +8,12 @@
   --border-color: rgba(255, 255, 255, 0.08);
   --border-color-hover: rgba(255, 255, 255, 0.16);
   
-  --primary: #22c55e;
-  --primary-hover: #16a34a;
-  --primary-light: #4ade80;
-  --primary-gradient: linear-gradient(135deg, #22c55e 0%, #15803d 100%);
-  --primary-gradient-hover: linear-gradient(135deg, #16a34a 0%, #166534 100%);
-  --primary-glow: rgba(34, 197, 94, 0.25);
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-light: #93c5fd;
+  --primary-gradient: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  --primary-gradient-hover: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  --primary-glow: rgba(59, 130, 246, 0.2);
   
   --text-primary: #f3f4f6;
   --text-secondary: #9ca3af;
@@ -133,7 +133,7 @@ input, select, textarea {
 
 input:focus, select:focus, textarea:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.2);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
 }
 
 /* Buttons */
@@ -222,9 +222,9 @@ input:focus, select:focus, textarea:focus {
 }
 
 .badge-processing {
-  background: rgba(34, 197, 94, 0.1);
+  background: rgba(59, 130, 246, 0.1);
   color: var(--primary-light);
-  border: 1px solid rgba(34, 197, 94, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.2);
   position: relative;
   overflow: hidden;
 }
@@ -313,10 +313,10 @@ input:focus, select:focus, textarea:focus {
 
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 10px rgba(34, 197, 94, 0.1);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.1);
   }
   50% {
-    box-shadow: 0 0 25px rgba(34, 197, 94, 0.4);
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);
   }
 }
 
@@ -347,14 +347,14 @@ input:focus, select:focus, textarea:focus {
 
 .ocr-overlay-box {
   position: absolute;
-  border: 1px solid rgba(34, 197, 94, 0.35);
-  background-color: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  background-color: rgba(59, 130, 246, 0.08);
   cursor: pointer;
   transition: background-color 0.15s, border-color 0.15s;
 }
 
 .ocr-overlay-box:hover {
-  background-color: rgba(34, 197, 94, 0.25);
+  background-color: rgba(59, 130, 246, 0.25);
   border-color: var(--primary);
   z-index: 10;
 }
@@ -374,8 +374,8 @@ input:focus, select:focus, textarea:focus {
 /* Floating custom tooltips */
 .ocr-tooltip {
   position: absolute;
-  background: #14532d;
-  border: 1px solid #166534;
+  background: #1e293b;
+  border: 1px solid #1e3a5f;
   color: #e0e7ff;
   padding: 6px 12px;
   border-radius: 6px;

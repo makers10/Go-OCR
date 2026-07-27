@@ -229,7 +229,7 @@ const iconContainerStyle: React.CSSProperties = {
   width: '38px',
   height: '38px',
   borderRadius: '8px',
-  backgroundColor: 'rgba(34, 197, 94, 0.08)',
+  backgroundColor: 'rgba(59, 130, 246, 0.08)',
   flexShrink: 0
 };
 

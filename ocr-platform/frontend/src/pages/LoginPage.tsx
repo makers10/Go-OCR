@@ -167,7 +167,7 @@ const bgGlowLeftStyle: React.CSSProperties = {
   width: '40vw',
   height: '40vw',
   borderRadius: '50%',
-  background: 'radial-gradient(circle, rgba(34, 197, 94, 0.12) 0%, transparent 70%)',
+  background: 'radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%)',
   pointerEvents: 'none'
 };
 
@@ -178,7 +178,7 @@ const bgGlowRightStyle: React.CSSProperties = {
   width: '45vw',
   height: '45vw',
   borderRadius: '50%',
-  background: 'radial-gradient(circle, rgba(249, 115, 22, 0.08) 0%, transparent 70%)',
+  background: 'radial-gradient(circle, rgba(59, 130, 246, 0.06) 0%, transparent 70%)',
   pointerEvents: 'none'
 };
 
@@ -202,8 +202,8 @@ const logoIconStyle: React.CSSProperties = {
   width: '56px',
   height: '56px',
   borderRadius: '14px',
-  background: 'linear-gradient(135deg, #166534, #15803d, #1a4731)',
-  boxShadow: '0 0 28px rgba(34, 197, 94, 0.4)',
+  background: 'linear-gradient(135deg, #1e3a5f, #1d4ed8, #1e40af)',
+  boxShadow: '0 0 24px rgba(59, 130, 246, 0.3)',
   marginBottom: '1rem'
 };
 
@@ -212,7 +212,7 @@ const titleStyle: React.CSSProperties = {
   fontWeight: 800,
   margin: '0 0 4px 0',
   letterSpacing: '-0.03em',
-  background: 'linear-gradient(to right, #ffffff, #4ade80)',
+  background: 'linear-gradient(to right, #f1f5f9, #93c5fd)',
   WebkitBackgroundClip: 'text',
   WebkitTextFillColor: 'transparent'
 };
@@ -256,8 +256,8 @@ const activeDemoStyle: React.CSSProperties = {
 };
 
 const activeLiveStyle: React.CSSProperties = {
-  background: '#14532d',
-  color: '#4ade80'
+  background: '#172554',
+  color: '#93c5fd'
 };
 
 const formStyle: React.CSSProperties = {

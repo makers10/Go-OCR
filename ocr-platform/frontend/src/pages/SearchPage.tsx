@@ -264,7 +264,7 @@ const docIconWrapperStyle: React.CSSProperties = {
   width: '36px',
   height: '36px',
   borderRadius: '8px',
-  backgroundColor: 'rgba(34, 197, 94, 0.08)'
+  backgroundColor: 'rgba(59, 130, 246, 0.08)'
 };
 
 const docInfoStyle: React.CSSProperties = {

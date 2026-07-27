@@ -263,7 +263,7 @@ const loaderContainerStyle: React.CSSProperties = {
 const spinnerStyle: React.CSSProperties = {
   width: '32px',
   height: '32px',
-  border: '3px solid rgba(34, 197, 94, 0.1)',
+  border: '3px solid rgba(59, 130, 246, 0.1)',
   borderTopColor: 'var(--primary)',
   borderRadius: '50%'
 };

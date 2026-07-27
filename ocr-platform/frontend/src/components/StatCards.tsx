@@ -14,7 +14,7 @@ export const StatCards: React.FC<StatCardsProps> = ({ totalDocs, totalPages, pro
       <div className="glass-panel" style={cardStyle}>
         <div style={cardHeaderStyle}>
           <span style={titleStyle}>Total Library</span>
-          <div style={{ ...iconWrapperStyle, backgroundColor: 'rgba(34, 197, 94, 0.1)' }}>
+          <div style={{ ...iconWrapperStyle, backgroundColor: 'rgba(59, 130, 246, 0.1)' }}>
             <Files size={18} color="var(--primary-light)" />
           </div>
         </div>

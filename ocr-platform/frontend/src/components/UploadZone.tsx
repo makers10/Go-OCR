@@ -355,7 +355,7 @@ const dropzoneStyle: React.CSSProperties = {
 
 const dropzoneActiveStyle: React.CSSProperties = {
   borderColor: 'var(--primary)',
-  backgroundColor: 'rgba(34, 197, 94, 0.05)',
+  backgroundColor: 'rgba(59, 130, 246, 0.05)',
   boxShadow: 'var(--shadow-glow)'
 };
 
@@ -432,7 +432,7 @@ const iconWrapperStyle: React.CSSProperties = {
   width: '42px',
   height: '42px',
   borderRadius: '10px',
-  backgroundColor: 'rgba(34, 197, 94, 0.1)',
+  backgroundColor: 'rgba(59, 130, 246, 0.1)',
   flexShrink: 0
 };
 

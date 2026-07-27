@@ -109,8 +109,8 @@ const logoIconStyle: React.CSSProperties = {
   width: '40px',
   height: '40px',
   borderRadius: '10px',
-  background: 'linear-gradient(135deg, #166534, #15803d, #1a4731)',
-  boxShadow: '0 0 20px rgba(34, 197, 94, 0.35)'
+  background: 'linear-gradient(135deg, #1e3a5f, #1d4ed8, #1e40af)',
+  boxShadow: '0 0 18px rgba(59, 130, 246, 0.3)'
 };
 
 const brandTitleStyle: React.CSSProperties = {
@@ -118,7 +118,7 @@ const brandTitleStyle: React.CSSProperties = {
   fontSize: '1.25rem',
   fontWeight: 800,
   letterSpacing: '-0.03em',
-  background: 'linear-gradient(to right, #fff, #4ade80)',
+  background: 'linear-gradient(to right, #f1f5f9, #93c5fd)',
   WebkitBackgroundClip: 'text',
   WebkitTextFillColor: 'transparent'
 };
@@ -152,8 +152,8 @@ const linkStyle: React.CSSProperties = {
 
 const activeLinkStyle: React.CSSProperties = {
   color: '#fff',
-  background: 'rgba(34, 197, 94, 0.1)',
-  border: '1px solid rgba(34, 197, 94, 0.2)'
+  background: 'rgba(59, 130, 246, 0.08)',
+  border: '1px solid rgba(59, 130, 246, 0.15)'
 };
 
 const footerStyle: React.CSSProperties = {
@@ -175,8 +175,8 @@ const avatarStyle: React.CSSProperties = {
   width: '36px',
   height: '36px',
   borderRadius: '50%',
-  background: '#14532d',
-  border: '1px solid #166534',
+  background: '#172554',
+  border: '1px solid #1e3a5f',
   color: '#e0e7ff',
   display: 'flex',
   alignItems: 'center',

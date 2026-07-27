@@ -116,9 +116,9 @@ const activeDemoStyle: React.CSSProperties = {
 };
 
 const activeLiveStyle: React.CSSProperties = {
-  background: '#14532d',
-  color: '#4ade80',
-  boxShadow: '0 0 10px rgba(34, 197, 94, 0.15)'
+  background: '#172554',
+  color: '#93c5fd',
+  boxShadow: '0 0 10px rgba(59, 130, 246, 0.15)'
 };
 
 const statusBadgeStyle = (mode: 'live' | 'demo'): React.CSSProperties => ({
@@ -128,21 +128,21 @@ const statusBadgeStyle = (mode: 'live' | 'demo'): React.CSSProperties => ({
   padding: '6px 12px',
   borderRadius: '8px',
   border: '1px solid',
-  borderColor: mode === 'demo' ? 'rgba(52, 211, 153, 0.2)' : 'rgba(34, 197, 94, 0.2)',
-  background: mode === 'demo' ? 'rgba(52, 211, 153, 0.05)' : 'rgba(34, 197, 94, 0.05)',
+  borderColor: mode === 'demo' ? 'rgba(52, 211, 153, 0.2)' : 'rgba(59, 130, 246, 0.15)',
+  background: mode === 'demo' ? 'rgba(52, 211, 153, 0.05)' : 'rgba(59, 130, 246, 0.04)',
   fontSize: '0.75rem',
   fontWeight: 600,
-  color: mode === 'demo' ? '#34d399' : '#4ade80'
+  color: mode === 'demo' ? '#34d399' : '#93c5fd'
 });
 
 const indicatorDotStyle = (mode: 'live' | 'demo'): React.CSSProperties => ({
   width: '8px',
   height: '8px',
   borderRadius: '50%',
-  backgroundColor: mode === 'demo' ? '#10b981' : '#22c55e',
+  backgroundColor: mode === 'demo' ? '#10b981' : '#3b82f6',
   display: 'inline-block',
   boxShadow: mode === 'demo' 
     ? '0 0 8px #10b981' 
-    : '0 0 8px #22c55e',
+    : '0 0 8px #3b82f6',
   animation: mode === 'live' ? 'pulse-glow 2s infinite' : 'none'
 });
